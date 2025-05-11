@@ -1,6 +1,6 @@
 
-CREATE DATABASE quizdb;
-USE quizdb;
+CREATE DATABASE quiz_database;
+USE quiz_database;
 
 CREATE TABLE questions (
     id INT AUTO_INCREMENT PRIMARY KEY,
