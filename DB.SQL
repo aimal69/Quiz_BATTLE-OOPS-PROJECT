@@ -1,0 +1,21 @@
+
+CREATE DATABASE quizdb;
+USE quizdb;
+
+CREATE TABLE questions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    question TEXT,
+    option_a VARCHAR(100),
+    option_b VARCHAR(100),
+    option_c VARCHAR(100),
+    option_d VARCHAR(100),
+    correct_option CHAR(1)
+);
+
+CREATE TABLE players (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    score INT
+);
+INSERT INTO questions (question, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Which language is used for Android development?', 'Java', 'Python', 'C++', 'Ruby', 'A');
