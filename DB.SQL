@@ -18,4 +18,8 @@ CREATE TABLE players (
     score INT
 );
 INSERT INTO questions (question, option_a, option_b, option_c, option_d, correct_option)
-VALUES ('Which language is used for Android development?', 'Java', 'Python', 'C++', 'Ruby', 'A');
+VALUES ('Which language is used for Android development?', 'Java', 'Python', 'C++', 'Ruby', 'A')
+,
+("what is capital of india?",'mumbai','delhi','gujrat','punjab','B')
+,
+("what ia capital of japan?",'mumbai','tokyo','paris','new york','B');;;
