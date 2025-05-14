@@ -13,9 +13,9 @@ CREATE TABLE questions (
 );
 
 CREATE TABLE players (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(50),
-    score INT
+    player_id INT AUTO_INCREMENT PRIMARY KEY,
+   player_name VARCHAR(50),
+    Score INT
 );
 INSERT INTO questions (question, option_a, option_b, option_c, option_d, correct_option)
 VALUES ('Which language is used for Android development?', 'Java', 'Python', 'C++', 'Ruby', 'A')
