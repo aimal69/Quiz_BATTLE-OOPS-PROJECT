@@ -1,6 +1,6 @@
 public class Question {
     public String question, optionA, optionB, optionC, optionD;
-    public char correctOption;
+    public char correctoption;
 
     public Question(String question, String a, String b, String c, String d, char correct) {
         this.question = question;
@@ -8,6 +8,6 @@ public class Question {
         this.optionB = b;
         this.optionC = c;
         this.optionD = d;
-        this.correctOption = correct;
+        this.correctoption = correct;
     }
 }
