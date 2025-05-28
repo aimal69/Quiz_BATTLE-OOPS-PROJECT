@@ -24,4 +24,5 @@ VALUES ('Which language is used for Android development?', 'Java', 'Python', 'C+
 ,
 ("what ia capital of japan?",'mumbai','tokyo','paris','new york','B')
 ,
-(who is the founder of microsoft?",'zorawar','behram','bill gates','kashif ali','c');;;
+("who is the founder of microsoft?",'zorawar','behram','bill gates','kashif ali','c')
+,("Who is the president of america?",'Trump','Imran Khan','Bill Gates','Obama','A');;;
